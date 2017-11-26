@@ -10,15 +10,22 @@
 body {
 
 	font-family: 'Raleway', sans-serif;
+	color: white;
 }
 
 
 h1{ 
 
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 600;
-    letter-spacing: 0.04em;
+    margin-bottom: 2%;
     
+}
+
+h2{
+
+	font-weight: 500;
+	margin-bottom: 3%;
 }
 
 
@@ -26,16 +33,48 @@ p{
 
 	font-size: 18px;
 	font-weight: 100;
-	letter-spacing: 0.03em;
-
+	line-height: 1.25em;
 }
+
 
 header{
 
 	background-color:#f78e69 ;
-	color: white;
-	padding-top: 5%;
-	padding-bottom: 4%;
+	padding:6% 3% 4%;
 	text-align: right;
+}
+
+.foto1 {
+
+	background-image: url("../assets/img/uno.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	padding: 16.8% 0;
+}
+
+.foto2 {
+
+	background-image: url("../assets/img/dos.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	padding: 16.8% 0;
+	border-top: 23px solid #f78e69; 
+}
+
+.green {
+
+	background-color: #abe188;
+	border-top: 23px solid #f78e69; 
+}
+
+.text {
+    
+    background-color:#f78e69;
+    text-align: center;
+    margin: 4% 0 4% 25%;
+    display: inline-block;
+    padding: 4% 2% 2% 2%;
+
+
 }
 
