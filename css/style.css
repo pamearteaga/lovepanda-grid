@@ -57,24 +57,57 @@ header{
 	background-image: url("../assets/img/dos.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
-	padding: 16.8% 0;
+	padding: 25% 0;
 	border-top: 23px solid #f78e69; 
 }
+
+
+.foto3 {
+
+	background-image: url("../assets/img/tres.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	padding: 25% 0;
+	border-top: 23px solid #f78e69; 
+}
+
 
 .green {
 
 	background-color: #abe188;
 	border-top: 23px solid #f78e69; 
+	padding: 4% 0;
+	text-align: center;
+}
+
+.green img{
+
+	border: 10px solid white;
+
 }
 
 .text {
     
     background-color:#f78e69;
-    text-align: center;
-    margin: 4% 0 4% 25%;
     display: inline-block;
     padding: 4% 2% 2% 2%;
 
+}
+
+footer {
+   
+   background-color:#f78e69;
+   text-align: right;
+   padding: 1.5% 2% 1% 0;
+
 
 }
+
+footer p{
+
+	font-weight: 500;
+	font-size: 18px;
+}
+
+
 
